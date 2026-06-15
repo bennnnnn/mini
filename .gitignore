@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+**/*.pyc
+backend/*.egg-info/
+
+# Environment files — DO NOT commit secrets
+.env
+backend/.env
+frontend/.env.local
+**/.env
+**/.env.local
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+/tmp/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Workspaces (user data)
+/tmp/mini-cursor-workspaces/
+backend/.env.bak
+**/.env.bak
